@@ -4,7 +4,7 @@ date: 2020-06-21T08:04
 thumb: "copie.png"
 tags: 
     - popular
-    - sample
+    
 ---
 
 voici la description du post copie .
