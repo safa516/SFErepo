@@ -4,6 +4,8 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
+- type: heading
+  label: Content
 - type: directory
   path: src/posts
   label: Posts
@@ -11,8 +13,14 @@ sections:
   match: "*.md"
 - type: heading
   label: Globals
-- type: heading
-  label: Content
+- type: document
+  path: src/_data/menu.json
+  label: menu
+  match: "**/*"
+- type: document
+  path: src/_data/author.json
+  label: Author
+  match: "**/*"
 upload_dir: src/posts/img
 public_path: "/img"
 front_matter_path: ''
