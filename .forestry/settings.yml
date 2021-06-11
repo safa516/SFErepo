@@ -14,13 +14,11 @@ sections:
 - type: heading
   label: Globals
 - type: document
-  path: src/_data/menu.json
+  path: src\_data\menu.json
   label: menu
-  match: "**/*"
 - type: document
-  path: src/_data/author.json
+  path: src\_data\author.json
   label: Author
-  match: "**/*"
 upload_dir: src/posts/img
 public_path: "/img"
 front_matter_path: ''
